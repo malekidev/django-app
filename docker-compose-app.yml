@@ -8,6 +8,6 @@ services:
       - .:/app      
     networks:
       - my_network
-  networks:
-    my_network:
-      external: true
+networks:
+  my_network:
+    external: true
